@@ -46,7 +46,7 @@ class weewxMQTTInstaller(setup.ExtensionInstaller):
                     WIND = windSpeed
                  }
 
-            files=[('bin/users/wxMesh'])]
+            files=[('bin/users/wxMesh.py'])]
             )
 
         print ""

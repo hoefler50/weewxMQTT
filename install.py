@@ -44,7 +44,7 @@ class weewxMQTTInstaller(setup.ExtensionInstaller):
                     SYST = extraTemp2
                     WDIR = windDir
                     WIND = windSpeed
-                 }
+                 }},
 
             files=[('bin/users/wxMesh.py')]
             )
